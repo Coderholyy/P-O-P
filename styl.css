@@ -1,0 +1,179 @@
+body{
+	background-color: #E0E8F0;
+}
+
+
+.header1{
+	background: #668cff;
+    padding: 1em 0 0 0;
+    text-align: center;
+    border: .09em solid #a1a1a1;
+    margin-top: 0.1em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.header1 img{
+	float: left;
+	margin-top: .1em;
+	border-radius: 0.75em;
+	width: 4em;
+}
+
+#h{
+	color:	white;
+	font-family: "Times New Roman";
+}
+	
+nav{
+    background:  #68E3E7;
+/*  border-radius: .5em; 
+    border: .1em solid #a1a1a1;
+*/
+    margin-left: 11em;
+    margin-right: 11em;
+    text-indent: .1em;
+}
+
+/* Login form */
+
+.overlay ,.overlay1{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.overlay-content , .overlay-content1{
+    position: relative;
+    margin: 0 auto;
+    top: 5%;
+    height: 80%;
+    overflow: auto;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.form-group{
+    text-align: left;
+}
+
+.Loginform {
+    font-family: "Times New Roman";
+    font-weight: 400;
+}
+
+.overlay .closebtn , .overlay1 .closebtn1 {
+    position: absolute;
+    margin: 0 auto;
+    top: 0px;
+    right: 1px;
+    width: auto;
+    padding: .2em;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* Login form end*/
+
+
+.o{
+	margin-top: .7em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+	border: 2px transparent #a1a1a1;
+}
+
+.i{
+	margin: 0 auto;
+	text-align: center;	
+/*	
+    border: .1em solid #a1a1a1; 
+	border: .0001em solid #a1a1a1;*/
+	background-color: white;
+	padding: 1em 1em 2em 0; 
+	text-indent: 1em;
+	width: 60%;
+}
+
+
+/*#3D989E*/
+.i a{
+	text-decoration: none;
+	color :  black;
+}
+
+.i a:hover{
+	color: #708890;
+}
+
+
+textarea {
+	width: 40em;
+	height: 3em;
+	resize: none;
+}
+/*
+button{
+	width: 8em;
+	height: 3em;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: Arial;
+	font-weight: 400;
+	cursor: pointer;
+	margin-bottom: 1em;
+}
+*/
+.comment-box {
+	margin: 0 auto;
+	width: 48em;
+	padding: 1em;
+	margin-top: .5em;
+	margin-bottom: .1em;
+	background-color: #fff;
+	position: absolute;
+}
+
+.edit-button{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+.delete-button{
+	position: absolute;
+	top: 0px;
+	right: 9em;
+}
+
+
+.list-group {
+    margin-left: 1em;
+}
+
+.list-group a{
+    margin-bottom: 1em;
+}
